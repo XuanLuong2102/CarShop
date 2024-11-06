@@ -10,6 +10,10 @@ export const routes = [
       {
         path:"/",
         element: <Home />
+      },
+      {
+        path:"/carlist",
+        element: <Home />
       }
     ]
   }

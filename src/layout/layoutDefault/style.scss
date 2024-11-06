@@ -6,22 +6,31 @@
 }
 a{
   text-decoration: none;
-  color: #fff;
-  &:hover{
-    color: #615f5f;
-  }
+  color: #000;
 }
 li{
   list-style: none;
 }
+p{
+  color: #4d4b4b;
+}
 .font20{
   font-size: 20px !important;
+}
+.font18{
+  font-size: 18px !important;
+}
+.fontWeight{
+  font-weight: 500 !important;
 }
 .mar_bot20{
   margin-bottom: 20px !important;
 }
 .colorW{
   color: #fff !important;
+}
+.colorB{
+  color: #3f5cfc;
 }
 .login{
   background: #000;
@@ -80,7 +89,12 @@ li{
 }
 .menu{
   height: 100%;
-  
+  &__item{
+    color: #fff;
+    &:hover{
+      color: #4d4b4b;
+    }
+  }
   & ul {
     height: 100%;
     display: flex;

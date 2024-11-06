@@ -4,7 +4,7 @@ import { Button, Col, Row } from "antd";
 import "./style.scss";
 
 function LayoutDefault() {
-  
+
   useEffect(() => {
     const handleScroll = () => {
       const header = document.querySelector(".layout-default__header");
@@ -37,19 +37,19 @@ function LayoutDefault() {
               <div className="menu">
                 <ul>
                   <li>
-                    <NavLink to="/">HOME</NavLink>
+                    <NavLink to="/" className="menu__item">HOME</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/properties">VEHICLE</NavLink>
+                    <NavLink to="/" className="menu__item">VEHICLE</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/owner">OUR SERVICE</NavLink>
+                    <NavLink to="/"className="menu__item">OUR SERVICE</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/resident">ABOUT</NavLink>
+                    <NavLink to="/" className="menu__item">ABOUT</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/blog">CONTACT</NavLink>
+                    <NavLink to="/" className="menu__item">CONTACT</NavLink>
                   </li>
                 </ul>
               </div>
