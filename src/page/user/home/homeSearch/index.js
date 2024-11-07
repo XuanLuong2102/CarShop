@@ -1,4 +1,4 @@
-import { Button, Col, Row, Select } from "antd";
+import { Button, Col, Row, Select, Slider } from "antd";
 import { brands, categorys, locations, transimissions, years, bodys } from "../../../../component/item";
 
 function HomeSearch(){
@@ -66,8 +66,8 @@ function HomeSearch(){
                 </div>
               </Col>
               <Col span={6}>
-                <div className="body select">
-                  Select Body 
+                <div className="recent select">
+                  <Slider lassName="recent" defaultValue={200000} step={1000} max={1000000}/>
                 </div>
               </Col>
               <Col span={6}>

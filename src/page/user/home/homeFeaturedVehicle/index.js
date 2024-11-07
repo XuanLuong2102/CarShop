@@ -22,8 +22,8 @@ function FeaturedVehicle() {
   <div className="featured-vehicle__area">
     <div className="container">
       <div className="service__title">
-        <h1 className="title"><span className="colorB">FEATURED</span> VEHICLES</h1>
-        <p>Check out our featured vehicles</p>
+        <h1 className="title__h1"><span className="colorB">FEATURED</span> VEHICLES</h1>
+        <p className="title__p">Check out our featured vehicles</p>
       </div>
       <Row className="navigation">
         <Col span={5}>

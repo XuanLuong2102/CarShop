@@ -7,8 +7,8 @@ function HomeService(){
     <div className="service__area">
       <div className="container">
         <div className="service__title">
-          <h1 className="title"><span className="colorB">OUR</span> SERVICES </h1>
-          <p>We Provide Faster Service </p>
+          <h1 className="title__h1"><span className="colorB">OUR</span> SERVICES </h1>
+          <p className="title__p">We Provide Faster Service </p>
         </div>
         <Row >
           <Col span={6}>

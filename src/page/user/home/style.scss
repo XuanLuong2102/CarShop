@@ -42,6 +42,13 @@ form{
 }
 .select{
   height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.recent{
+  
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
 }
 .select_item{
   width: 100%;
@@ -68,12 +75,6 @@ form{
     text-align: center;
     margin-bottom: 60px;
     cursor: pointer;
-    & .title{
-      margin-bottom: 20px;
-    }
-    & p{
-      font-size: 18px;
-    }
   }
   &__item{
     height: 280px;
@@ -114,6 +115,12 @@ form{
       color: #7f90f5;
     }
   }
+}
+.title__h1{
+  margin-bottom: 20px;
+}
+.title__p{
+  font-size: 18px;
 }
 .featured-vehicle__area{
   margin-top: 100px;  
