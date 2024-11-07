@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { Button, Col, Row } from "antd";
 import "./style.scss";
+import Footer from "./footer";
 
 function LayoutDefault() {
 
@@ -76,6 +77,9 @@ function LayoutDefault() {
       <main className="layout-default__main">
         <Outlet />
       </main>
+      <footer class="footer">
+        <Footer/>
+      </footer>
     </div>
   );
 }

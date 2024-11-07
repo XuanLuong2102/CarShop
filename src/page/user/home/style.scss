@@ -58,11 +58,11 @@ form{
 }
 .service{
   &__area{
-    margin-top: 100px;
-    
+    margin-top: 100px; 
+    margin-bottom: 100px; 
   }
   &__title{
-    max-width: 300px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -96,9 +96,7 @@ form{
       font-size: 30px;
     }
     &__content{
-      position: absolute;
-      top:110px;
-      left: 10px;
+      margin: 110px 10px 0;
       width: 90%;
       & .name{
         font-size: 18px;
@@ -116,4 +114,7 @@ form{
       color: #7f90f5;
     }
   }
+}
+.featured-vehicle__area{
+  margin-top: 100px;  
 }
