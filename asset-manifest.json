@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/car_shop/static/css/main.09648453.css",
-    "main.js": "/car_shop/static/js/main.c4411b60.js",
-    "static/js/453.e87546cc.chunk.js": "/car_shop/static/js/453.e87546cc.chunk.js",
-    "static/media/banner-1.jpg": "/car_shop/static/media/banner-1.83c48aafa8ce237a3d4e.jpg",
-    "static/media/car-list-2.jpg": "/car_shop/static/media/car-list-2.0d5ffd8869cf29165334.jpg",
-    "static/media/bootstrap-icons.woff?": "/car_shop/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
-    "static/media/car-list-1.jpg": "/car_shop/static/media/car-list-1.dc71503e87ae63368811.jpg",
-    "static/media/car-list-3.jpg": "/car_shop/static/media/car-list-3.e262b3ddef73f2cd78ce.jpg",
-    "static/media/bootstrap-icons.woff2?": "/car_shop/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
-    "index.html": "/car_shop/index.html",
-    "main.09648453.css.map": "/car_shop/static/css/main.09648453.css.map",
-    "main.c4411b60.js.map": "/car_shop/static/js/main.c4411b60.js.map",
-    "453.e87546cc.chunk.js.map": "/car_shop/static/js/453.e87546cc.chunk.js.map"
+    "main.css": "/CarShop/static/css/main.e28ea090.css",
+    "main.js": "/CarShop/static/js/main.1711a4a2.js",
+    "static/js/453.e87546cc.chunk.js": "/CarShop/static/js/453.e87546cc.chunk.js",
+    "static/media/banner-1.jpg": "/CarShop/static/media/banner-1.83c48aafa8ce237a3d4e.jpg",
+    "static/media/car-list-2.jpg": "/CarShop/static/media/car-list-2.0d5ffd8869cf29165334.jpg",
+    "static/media/bootstrap-icons.woff?": "/CarShop/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/car-list-1.jpg": "/CarShop/static/media/car-list-1.dc71503e87ae63368811.jpg",
+    "static/media/car-list-3.jpg": "/CarShop/static/media/car-list-3.e262b3ddef73f2cd78ce.jpg",
+    "static/media/bootstrap-icons.woff2?": "/CarShop/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "index.html": "/CarShop/index.html",
+    "main.e28ea090.css.map": "/CarShop/static/css/main.e28ea090.css.map",
+    "main.1711a4a2.js.map": "/CarShop/static/js/main.1711a4a2.js.map",
+    "453.e87546cc.chunk.js.map": "/CarShop/static/js/453.e87546cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09648453.css",
-    "static/js/main.c4411b60.js"
+    "static/css/main.e28ea090.css",
+    "static/js/main.1711a4a2.js"
   ]
 }
