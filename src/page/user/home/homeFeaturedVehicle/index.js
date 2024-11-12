@@ -1,9 +1,10 @@
 import { Col, Row } from "antd";
 import "./style.scss";
-import { useReducer } from "react";
+import { useEffect, useReducer } from "react";
 import { NavLink } from "react-router-dom";
 import { List_Car } from "./car_Item";
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import {  useAnimateOnScroll } from "../../../../component/animate";
 
 // Updated reducer function
 const reducer = (state, action) => {
@@ -39,10 +40,41 @@ function FeaturedVehicle() {
 
   const [selectState, dispatch] = useReducer(reducer, initialState);
 
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const title = document.querySelector(".service__title");
+  //     const navigation = document.querySelector(".navigation");
+  //     const listCar = document.querySelector(".list__car");
+  //     if (window.scrollY > 250) {
+  //       title.classList.add("animate-left");
+  //     } else {
+  //       title.classList.remove("animate-left");
+  //     }
+  //     if (window.scrollY > 300) {
+  //       navigation.classList.add("animate-right");
+  //     } else {
+  //       navigation.classList.remove("animate-right");
+  //     }
+  //     if (window.scrollY > 400) {
+  //       listCar.classList.add("animate-bottom");
+  //     } else {
+  //       listCar.classList.remove("animate-bottom");
+  //     }
+  //   };
+
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
+  useAnimateOnScroll({classname:"service__title", addClass:"animate-left", Scroll : 250})
+  useAnimateOnScroll({classname:"navigation", addClass:"animate-right", Scroll : 300})
+  useAnimateOnScroll({classname:"list__car", addClass:"animate-bottom", Scroll : 520})
+
   return (
     <div className="featured-vehicle__area">
       <div className="container">
-        <div className="service__title">
+        <div className="service__title animate-left ">
           <h1 className="title__h1"><span className="colorB">FEATURED</span> VEHICLES</h1>
           <p className="title__p">Check out our featured vehicles</p>
         </div>

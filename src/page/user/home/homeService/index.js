@@ -4,16 +4,21 @@ import { TbSnowflake  } from "react-icons/tb";
 import { MdOutlineChangeCircle } from "react-icons/md";
 import { AiFillUnlock } from "react-icons/ai";
 import { IoIosPerson } from "react-icons/io";
+import { useAnimateOnScroll } from "../../../../component/animate";
 
 function HomeService(){
+
+  useAnimateOnScroll({classname:"service", addClass:"animate-left", Scroll : 1200});
+  useAnimateOnScroll({classname:"service__item__list", addClass:"animate-zoom", Scroll : 1300});
+
   return(
     <div className="service__area">
       <div className="container">
-        <div className="service__title">
+        <div className="service__title service">
           <h1 className="title__h1"><span className="colorB">OUR</span> SERVICES </h1>
           <p className="title__p">We Provide Faster Service </p>
         </div>
-        <Row >
+        <Row className="service__item__list">
           <Col span={6} className="service__item">
             <NavLink to="/">  
               <div className="icon colorB"><TbSnowflake /></div>
