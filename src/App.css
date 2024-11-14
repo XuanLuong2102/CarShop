@@ -39,7 +39,7 @@
 
 .animate-left{
   position:relative;
-  animation:animateleft 1.5s
+  animation:animateleft 2s
 } 
 @keyframes animateleft{
   from{
@@ -52,7 +52,7 @@
 }
 .animate-right{
   position:relative;
-  animation:animateright 1.5s
+  animation:animateright 2s
 }
 @keyframes animateright{
   from{
@@ -65,7 +65,7 @@
 }
 .animate-bottom{
   position:relative;
-  animation:animatebottom 1.5s
+  animation:animatebottom 2s
 }
 @keyframes animatebottom{
   from{
@@ -77,7 +77,7 @@
   }
 }
 .animate-zoom {
-  animation:animatezoom 1.5s
+  animation:animatezoom 2s
 }
 @keyframes animatezoom{
   from{
@@ -88,7 +88,7 @@
 }
 .animate-top{
   position:relative;
-  animation:animatetop 0.4s
+  animation:animatetop 2s
 } 
 @keyframes animatetop{
   from{
@@ -107,7 +107,7 @@
   50%{opacity:1}
   100%{opacity:0}}
 .animate-opacity{
-  animation:opac 0.8s
+  animation:opac 2s
 } 
 @keyframes opac{
   from{
