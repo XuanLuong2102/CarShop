@@ -1,0 +1,275 @@
+
+.body {
+    background-color: #050B20;
+}
+select{
+    outline: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search_bar {
+    width: 1000px;
+    display: flex;
+    background-color: #B1D1EC;
+    border-radius: 999px;
+    padding: 10px 10px;
+    margin-top: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+
+}
+
+.filter-group {
+    margin-right: 20px;
+    // align-items: center;
+    display: grid;
+    text-align: center;
+
+    label {
+        font-size: 14px;
+        margin-right: 5px;
+        color: black
+    }
+
+    select {
+        margin-top: 5px;
+        border: none;
+        background-color: transparent;
+        font-size: 14px;
+        cursor: pointer;
+        text-align: center;
+    }
+}
+
+.more-filters {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-radius: 60px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #000000;
+}
+
+.search-button {
+    background-color: #4285F4;
+    margin-left: 20px;
+
+
+}
+
+.search-icon {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    & svg {
+        margin-right: 10px;
+        font-size: 32px;
+    }
+
+}
+
+.icon {
+    right: 7;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+}
+
+.page-boxcar {
+    border-radius: 90px;
+    background-color: white;
+    height: 100%;
+}
+
+.boxcar-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+    // width: 100%;
+    margin-top: 20px;
+    height: 1650px;
+}
+
+
+
+.breadcrumb {
+    align-items: center;
+    margin-top: 20px;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li::after {
+        display: inline-block;
+        content: "/";
+    }
+
+    a {
+        color: #000000;
+        font-size: larger;
+    }
+}
+
+
+.title {
+    margin-top: 33px;
+    font-family: Georgia;
+    font-size: 60px;
+}
+
+.card-list {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin-top: 10px;
+    width: 333px;
+    height: 450px;
+    flex-wrap: wrap;
+}
+
+.text-box {
+    align-items: center;
+    font-size: 12px;
+
+}
+
+//form-sort
+.form-sort {
+    text-align: right;
+    align-items: center;
+
+    label {
+        font-size: 15px;
+        font-family: Georgia;
+        font-weight: 600;
+    }
+}
+
+.sort {
+    font-size: 12px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+
+//car list
+
+.car {
+
+    &__area {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__item {
+        overflow: hidden;
+        width: 329px;
+        height: 400px;
+        margin-top: 30px;
+        border-radius: 30px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transition: 0.3s;
+        cursor: pointer;
+        &:hover {
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+        &img {
+            width: auto;
+            height: 50%;
+            object-fit: cover;
+
+        }
+
+        &__content {
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 20px;
+            padding: 15px 27px 11px;
+
+        }
+
+        &__name {
+            margin-bottom: 5px;font: 18px "DM sans", sans-serif;
+        }
+
+        &__recent {
+            padding: 10px;
+            margin-top: 2px;
+            display: flex;
+            align-items: center;
+            &__price {
+                
+                font: 20px "DM Sans", sans-serif;
+                vertical-align: middle;
+            }
+
+            &__detail {
+                text-align: end;
+
+                vertical-align: bottom;
+
+                &__link {
+                    font: 15px "DM Sans", sans-serif;
+                    color: rgb(0, 79, 251);
+                }
+
+            }
+        }
+
+        &__group {
+            margin-top: 10px;
+            border-bottom: 1px solid #d4daef;
+            border-top: 1px solid #e3e5ef;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+
+            &__icon {
+                &__name {
+                    font-size: 10px;
+                }
+            }
+
+        }
+    }
+
+}
+
+//page navigation
+.pagiantion{
+    margin-top: 61px;
+    padding: 0;
+    & .ant-pagination-item{
+        border-radius: 50% !important;
+    }
+}
